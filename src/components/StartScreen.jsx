@@ -15,7 +15,7 @@ export default function StartScreen({ onStart }) {
         Test your<br />
         <em>knowledge</em>
       </h1>
-      <p className="start-tagline">15 questions · 30 seconds each · instant feedback</p>
+      <p className="start-tagline">15 questions · 15 seconds each · instant feedback</p>
 
       <p className="start-topic-heading">Choose a topic</p>
 
@@ -28,7 +28,7 @@ export default function StartScreen({ onStart }) {
           >
             <span className="topic-card__emoji">{topics[t].emoji}</span>
             <span className="topic-card__name">{t}</span>
-            <span className="topic-card__count">15 questions · 30s each</span>
+            <span className="topic-card__count">15 questions · 15s each</span>
           </button>
         ))}
       </div>

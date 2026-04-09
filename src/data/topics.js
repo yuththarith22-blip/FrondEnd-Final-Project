@@ -1,4 +1,4 @@
-export const TIMER_SECS = 30;
+export const TIMER_SECS = 15;
 export const TOTAL_QUESTIONS = 15;
 
 export const topics = {
